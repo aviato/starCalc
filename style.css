@@ -1,0 +1,82 @@
+html,
+body {
+  background: url(http://www.cosmotography.com/images/lrg_christmas_tree_cluster_fox_fur_nebula_cone_nebula_ngc2264.jpg) center no-repeat;
+  padding: 0;
+  webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+.calcBody {
+  margin:         250px auto;
+  padding-bottom:     1.5em;
+  max-width:            20%;
+  border-radius:        4px;
+  background-color: #C9C9C9;
+  box-shadow: 0 16px #5E5E5E;
+}
+
+.row {
+  width: 100%;
+  text-align: center;
+}
+
+#calcDisplay {
+  position:           relative;
+  top:                10px;
+  height:             90px;
+  background:         #6CB7E6;
+  margin:             1em;
+  text-align:         right;
+  border:             1px solid grey;
+  border-radius:      4px;
+  -moz-box-shadow:    inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow:         inset 0 0 10px #000000;
+}
+
+#calcOutput {
+  position: relative;
+  top: 55px;
+  font: 2em "Courier New";
+  color: #15FF00;
+  padding-right: .25em;
+
+
+}
+
+.btn-wrap {
+  margin:     .35em auto;
+  width:             22%;
+  display:  inline-block;
+}
+
+button {
+  display:              block;
+  -webkit-appearance:    none;
+  -moz-appearance:       none;
+  appearance:            none;
+  border:                none;
+  padding:               .5em;
+  width:                  75%;
+  border-radius:          4px;
+  background-color:   #DB4040;
+  box-shadow:   0 5px #802626;
+  margin:              0 auto;
+  color:                 #fff;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color:   #0398FB;
+  box-shadow:   0 5px #014F83;
+}
+
+button:active {
+  position: relative;
+  top:           5px;
+  box-shadow:  0 0 0;
+}
